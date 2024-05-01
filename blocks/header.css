@@ -5,24 +5,26 @@ justify-content: center;
 padding-top: 34px;
 margin: 0 auto;
 width:254px;
-height:70px;
+padding-bottom: 90px;
+
 
 }
 
-@media screen and (min-width:768px) and (max-width:1280px){
+@media screen and (max-width:900px){
     .header{
         width: 254px;
-        height:66px;
+
     }
     
 }
 
 
 
-@media screen and (min-width: 320px) and (max-width:768px) {
+@media screen and  (max-width:600px) {
     .header{
         width:188px;
-        height:52px;
+        padding-bottom: 50px;
+
     }
     
 }

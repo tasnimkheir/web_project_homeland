@@ -15,7 +15,9 @@ font-weight: 900;
 line-height: 58px;
 align-items: initial;
 width:830px;
-height:116px;
+margin-top: 92px;
+margin-bottom: 40px;
+
 }
 
 
@@ -26,7 +28,7 @@ font-weight: 400;
 line-height: 34px;
 align-items: initial;
 width:738px;
-height:68px;
+
 }
 
 .intro__text-author{
@@ -35,8 +37,10 @@ font-size: 24px;
 font-weight: 400;
 line-height: 34px;
 text-align: right;
-height:732px;
-height:34px;
+width:732px;
+margin-top:10px;
+margin-bottom: 32px;
+
 }
 
 .intro__text{
@@ -46,16 +50,18 @@ font-weight: 400;
 line-height: 26.08px;
 text-align: initial;
 width:722px;
-height:182px;
+
 }
 
-@media screen and (min-width:768px) and (max-width:1280px) {
+@media screen and  (max-width:900px) {
     .intro__title{
         font-size: 45px;
         font-weight: 900;
         line-height: 49px;
         width:707px;
-        height:98px;
+        margin-top: 90px;
+        margin-bottom: 50px;
+  
         
     }
     .intro__text-subtitle{
@@ -63,46 +69,50 @@ height:182px;
         font-weight: 400;
         line-height: 34px;
         width:720px;
-        height:102px;
+ 
     }
     .intro__text-author{
         font-size: 24px;
         font-weight: 400;
         line-height: 34px;
         width:720px;
-        height:34px;
+        margin-bottom: 32px;
+ 
     }
     .intro__text{
         width: 720;
-        height:182px;
+
     }
     }
 
-    @media screen and (min-width: 320px) and (max-width:768px) {
+    @media screen and  (max-width:600px) {
         .intro__title{
             font-size: 32px;
             font-weight: 900;
             line-height: 35px;
             width:288px;
-            height:140px;
+            margin-top: 64px;
+            margin-bottom: 40px;
+     
         }
         .intro__text-subtitle{
             font-size: 24px;
             font-weight: 400;
             line-height: 30px;
             width:288px;
-            height:180px;
+
         }
         .intro__text-author{
             font-size: 24px;
             font-weight: 400;
             line-height: 34px;
             width:288px;
-            height:34px;
+            margin-bottom: 32px;
+    
         }
         .intro__text{
             width:288px;
-            height:442px;
+     
         }
         }
 
