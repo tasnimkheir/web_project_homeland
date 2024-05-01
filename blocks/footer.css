@@ -1,15 +1,12 @@
 .footer{
 width: 166px;
 padding-bottom: 24px;
-padding-top: 92px;
-
-   
+padding-top: 92px;   
 }
 
 @media screen and  (max-width:900px) {
     .footer{
         padding-top: 88px;
-
     }
 }
 
@@ -17,6 +14,5 @@ padding-top: 92px;
         .footer{
     width:166px;
     padding-top: 64px;
-
-        }
-        }
+    }
+ }
