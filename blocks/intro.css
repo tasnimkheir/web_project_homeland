@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 64px;
-  
     padding: 0 16px;
 
 
@@ -56,7 +55,6 @@ width:722px;
 @media screen and  (max-width:900px) {
     .intro__title{
         font-size: 45px;
-        font-weight: 900;
         line-height: 49px;
         width:707px;
         margin-top: 90px;
@@ -65,9 +63,6 @@ width:722px;
         
          }
     .intro__text-subtitle{
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 34px;
         width:720px;
  
         }
@@ -88,16 +83,12 @@ width:722px;
     @media screen and  (max-width:600px) {
         .intro__title{
             font-size: 32px;
-            font-weight: 900;
             line-height: 35px;
             width:288px;
             margin-top: 64px;
-            margin-bottom: 40px;
      
         }
         .intro__text-subtitle{
-            font-size: 24px;
-            font-weight: 400;
             line-height: 30px;
             width:288px;
 
