@@ -1,4 +1,3 @@
-@import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
 @import url(../blocks/content.css);
 @import url(../blocks/footer.css);
@@ -6,4 +5,4 @@
 @import url(../blocks/intro.css);
 @import url(../blocks/page.css);
 @import url(../blocks/lead.css);
-
+@import url(../vendor/fonts.css);
