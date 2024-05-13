@@ -25,6 +25,9 @@
 
       .lead__image{
         width:984px;
+        background: linear-gradient(0deg, #000000, #000000),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        
 
 
             }
