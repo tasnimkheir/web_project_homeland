@@ -56,6 +56,8 @@ line-height: 22px;
 .places__image{
 width: 460px;
 grid-area: image;
+box-shadow: 10px 10px 25px 0px #00000080;
+
 
 
 
@@ -64,6 +66,8 @@ grid-area: image;
 
 .place__image:hover {
     background: #00000080;
+    box-shadow: 10px 10px 25px 0px #00000080;
+
 }
 
 
